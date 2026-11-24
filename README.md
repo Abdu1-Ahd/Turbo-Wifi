@@ -1,27 +1,42 @@
 # Turbo-WiFi 🚀
 
-> **Autonomous Kernel-Level Network Engine & Wi-Fi SpeedBoost for Windows**  
-> Lightweight, zero-dependency, single-file polyglot (`TurboWiFi.cmd`) that diagnoses home Wi-Fi bottlenecks, auto-steers to 5 GHz, unlocks kernel TCP parameters, and accelerates web lookups with zero user friction.
+> **Autonomous Kernel-Level Network Engine & Wi-Fi SpeedBoost for Windows, macOS & Linux**  
+> Lightweight, zero-dependency scripts (`TurboWiFi.cmd` for Windows, `TurboWiFi.command` for macOS/Linux) that diagnose home Wi-Fi bottlenecks, auto-steer to 5 GHz, unlock kernel TCP parameters, and accelerate web lookups with zero user friction.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Abdu1--Ahd%2FTurbo--Wifi-blue?logo=github)](https://github.com/Abdu1-Ahd/Turbo-Wifi)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows)](https://github.com/Abdu1-Ahd/Turbo-Wifi)
-[![Architecture](https://img.shields.io/badge/Architecture-Single--File%20Polyglot-success)](https://github.com/Abdu1-Ahd/Turbo-Wifi)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-0078D6)](https://github.com/Abdu1-Ahd/Turbo-Wifi)
+[![Architecture](https://img.shields.io/badge/Architecture-Zero--Dependency%20Scripts-success)](https://github.com/Abdu1-Ahd/Turbo-Wifi)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
 ## ⚡ Quick Start (For Anyone)
 
-### Option 1: 1-Click Run
+### 🪟 Windows Users
+
+#### Option 1: 1-Click Run
 1. Download **[`TurboWiFi.cmd`](https://raw.githubusercontent.com/Abdu1-Ahd/Turbo-Wifi/main/TurboWiFi.cmd)**.
 2. Double-click it.
 3. Click **"Yes"** on the Windows UAC permission prompt.
 4. It automatically optimizes everything in **~1.3 seconds** and outputs a verified scorecard!
 
-### Option 2: 1-Line PowerShell Command
+#### Option 2: 1-Line PowerShell Command
 Open PowerShell as Administrator and run:
 ```powershell
 irm https://raw.githubusercontent.com/Abdu1-Ahd/Turbo-Wifi/main/TurboWiFi.cmd | iex
+```
+
+### 🍎 macOS & 🐧 Linux Users
+
+#### Option 1: 1-Click Run
+1. Download **[`TurboWiFi.command`](https://raw.githubusercontent.com/Abdu1-Ahd/Turbo-Wifi/main/TurboWiFi.command)**.
+2. Double-click it (or run `./TurboWiFi.command` in Terminal).
+3. Enter your password when prompted for administrator privileges.
+
+#### Option 2: 1-Line Terminal Command
+Open Terminal and run:
+```bash
+curl -fsSL https://raw.githubusercontent.com/Abdu1-Ahd/Turbo-Wifi/main/TurboWiFi.command | sudo bash
 ```
 
 ---
