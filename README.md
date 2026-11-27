@@ -87,7 +87,7 @@ If you ever want to revert back to your exact original baseline:
 Mobile phones cannot run `.cmd` scripts directly, but you can get the exact same speedup:
 
 1. **The 1-Tap App**: Install the free **[`1.1.1.1` by Cloudflare](https://1.1.1.1/)** app on iOS / Android and toggle it ON.
-2. **Android Native**: Go to Settings → Network & Internet → Private DNS → choose *Private DNS hostname* and enter **`one.one.one.one`**.
+2. **Android Native**: Go to Settings → Network & Internet → Private DNS → choose *Private DNS hostname* and enter **`1.1.1.1`**.
 3. **iPhone Native**: Settings → Wi-Fi → tap `(i)` next to your home network → turn **Private Wi-Fi Address** to **OFF** (stops DHCP lease drops) and set DNS to **Manual: `1.1.1.1`**.
 
 ---
