@@ -67,6 +67,11 @@ curl -fsSL https://raw.githubusercontent.com/Abdu1-Ahd/Turbo-Wifi/main/TurboWiFi
 | **TCP ECN** | `ecncapability=enabled` | Explicit Congestion Notification reduces bufferbloat packet drops. |
 | **Sliding Window Validation** | `autotuninglevel=normal` | Guarantees full Bandwidth-Delay Product (BDP) gigabit scaling. |
 | **Hardware 5G Roaming** | Realtek `PreferBand`, Intel `BandPreference` | Forces hardware 5 GHz antenna priority on unified single-SSID networks. |
+| **Hardware MIMO Streams** | `MIMOPowerSaveMode = Disabled` (SMPS) | Keeps all antennas/spatial streams active; prevents adapter falling back to 1x1 sleep. |
+| **Multimedia Unthrottle** | `NetworkThrottlingIndex = 0xFFFFFFFF` | Disables Windows network packet throttling during multimedia, gaming, and calls. |
+| **Packet Coalescing Off** | `PacketCoalescing = Disabled` | Eliminates packet delivery latency buffering for gaming and VoIP. |
+| **Kernel Device Backlog** | `net.core.netdev_max_backlog = 16384` | Expands input packet buffer queue to prevent burst dropouts. |
+| **Wi-Fi RF Diagnostics** | Physical PHY rate, channel, RSSI | Live link speed telemetry and bottleneck advisory. |
 | **Encrypted DoH (Win 11)** | `DohTemplate: https://cloudflare-dns.com` | Encrypts lookups via HTTP/2 persistent connection pooling. |
 | **P2P Upload Shutoff** | `DeliveryOptimization: DODownloadMode = 0` | 100% upload bandwidth reclaimed from Windows Update torrenting. |
 | **Atomic Rollback Snapshot** | `HKCU:\Software\TurboWiFi\Snapshot` | Serializes previous state before modifying; press **`[U]`** for 1-key exact restoration. |
